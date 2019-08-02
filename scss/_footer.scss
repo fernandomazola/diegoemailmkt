@@ -1,0 +1,23 @@
+footer{
+  background: #ec7000;
+  padding: 20px;
+  margin-top: 40px;
+  color: white;
+  .main-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+      display: flex;
+      li a{
+        padding: 10px;
+        color: white;
+        font-size: 2em;
+      }
+    }
+    img{
+      width: 95px;
+      height: 29px;
+    }
+  }
+}

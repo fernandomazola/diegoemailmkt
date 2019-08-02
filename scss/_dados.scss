@@ -1,0 +1,17 @@
+.dados{
+  background: #ec7000cc;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+    .container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    span{
+      background: rgba(0, 0, 0, .3);
+      padding:2px 8px;
+      margin-left: 10px;
+      font-weight: 100;
+    }
+}

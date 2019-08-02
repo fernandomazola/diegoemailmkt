@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+header {
+  background: #ec7000;
+  padding: 20px;
+  color: white;
+}
+header .main-header {
+  display: flex;
+  justify-content: space-between;
+}
+header .main-header img {
+  width: 95px;
+  height: 29px;
+}
+header .main-header .cliente {
+  display: flex;
+  align-items: center;
+}
+header .main-header .cliente i {
+  font-size: 2em;
+}
+header .main-header .cliente p {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.image img {
+  width: 100%;
+}
+
+.recado {
+  max-width: 95%;
+  margin: 30px auto 0 auto;
+}
+.recado h1 {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #2d2d2b;
+  margin-bottom: 10px;
+}
+
+.duvidas {
+  max-width: 80%;
+  margin: 50px auto 0 auto;
+  padding: 20px;
+  background-color: #f3f4f5;
+}
+.duvidas .title {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #2d2d2b;
+  margin-bottom: 10px;
+}
+.duvidas span {
+  color: #ec7000;
+}
+.duvidas span a {
+  color: #ec7000;
+}
+.duvidas .canais {
+  margin-top: 30px;
+  font-size: 0.8em;
+}
+.duvidas .contact {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.duvidas .contact i {
+  font-size: 1.5em;
+  color: #ec7000;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.duvidas .contact .info-c {
+  margin-top: 10px;
+}
+.duvidas .contact .plus {
+  margin-top: 20px;
+}
+
+.emitirboleto {
+  background-color: #fcf0e8;
+  max-width: 80%;
+  margin: 50px auto 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.emitirboleto p {
+  color: #ec7000;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.emitirboleto span {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+  word-wrap: break-word;
+}
+.emitirboleto span a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.ul-footer {
+  max-width: 65%;
+  margin: 50px auto 0 auto;
+  list-style-type: circle;
+}
+
+.dados {
+  background: #ec7000cc;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+}
+.dados .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dados span {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 2px 8px;
+  margin-left: 10px;
+  font-weight: 100;
+}
+
+footer {
+  background: #ec7000;
+  padding: 20px;
+  margin-top: 40px;
+  color: white;
+}
+footer .main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .main-footer ul {
+  display: flex;
+}
+footer .main-footer ul li a {
+  padding: 10px;
+  color: white;
+  font-size: 2em;
+}
+footer .main-footer img {
+  width: 95px;
+  height: 29px;
+}
+
+/*# sourceMappingURL=style.css.map */

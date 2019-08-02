@@ -1,0 +1,29 @@
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+header{
+  background: #ec7000;
+  padding: 20px;
+  color: white;
+  .main-header{
+    display: flex;
+    justify-content: space-between;
+    img{
+      width: 95px;
+      height: 29px;
+    }
+    .cliente{
+      display: flex;
+      align-items: center;
+      i{
+        font-size: 2em;
+      }
+      p{
+        margin-left:10px;
+        font-weight: bold;
+      }
+    }
+  }
+}
